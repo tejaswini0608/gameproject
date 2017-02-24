@@ -1,0 +1,25 @@
+/*
+ * main.c
+
+ *
+ *  Created on: 8 Feb 2017
+ *      Author: liliana
+ */
+
+#include <stdio.h>
+
+/* import the header file containing the printFile
+function signature */
+#include "operations.h"
+
+int main(){
+	char path[500];
+	//requests a file path from the command line
+	printf("C:\Users\Tejaswini Kumar\Desktop\n");
+	scanf("%s", path);
+	//invokes the function for print the source main file
+	printFile(path);
+	return 0;
+}
+
+

@@ -1,0 +1,9 @@
+12:41:49 **** Incremental Build of configuration Debug for project FileReader ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[\bin;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\cygwin;C:\Users\Tejaswini Kumar\AppData\Local\Microsoft\WindowsApps;;C:\Users\Tejaswini Kumar\Desktop\eclipse]
+
+12:41:49 Build Finished (took 91ms)
+

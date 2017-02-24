@@ -1,0 +1,13 @@
+12:41:49 **** Incremental Build of configuration Debug for project tejufinal ****
+make all 
+Building target: tejufinal.exe
+Invoking: Cygwin C Linker
+gcc  -o "tejufinal.exe"  ./main.o ./printFile.o ./tejufinal.o   
+./tejufinal.o: In function `main':
+/cygdrive/c/Users/Tejaswini Kumar/Documents/workspace/tejufinal/Debug/../tejufinal.c:8: multiple definition of `main'
+./main.o:/cygdrive/c/Users/Tejaswini Kumar/Documents/workspace/tejufinal/Debug/../main.c:16: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:31: tejufinal.exe] Error 1
+
+12:41:50 Build Finished (took 295ms)
+

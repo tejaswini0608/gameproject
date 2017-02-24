@@ -1,0 +1,670 @@
+21:46:19 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:168:14: error: assignment to expression with array type
+     if(arrayA=arrayB)
+              ^
+../game.c:170:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:170:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:170:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:170:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:171:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:171:13: note: expected 'char *' but argument is of type 'char'
+../game.c:171:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:171:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:179:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%s ",arrayC[i]);
+             ^
+../game.c:179:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+../game.c:119:29: warning: variable 'arrayA' set but not used [-Wunused-but-set-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j;
+                             ^
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[100];
+        ^
+../game.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [subdir.mk:20: game.o] Error 1
+21:46:24 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:168:21: error: assignment to expression with array type
+     if(strcmp(arrayA=arrayB)=0)
+                     ^
+../game.c:170:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:170:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:170:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:170:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:171:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:171:13: note: expected 'char *' but argument is of type 'char'
+../game.c:171:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:171:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:179:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%s ",arrayC[i]);
+             ^
+../game.c:179:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+../game.c:119:29: warning: variable 'arrayA' set but not used [-Wunused-but-set-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j;
+                             ^
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[100];
+        ^
+../game.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [subdir.mk:20: game.o] Error 1
+21:47:34 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:168:20: error: assignment to expression with array type
+     c=strcmp(arrayA=arrayB);
+                    ^
+../game.c:169:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if(c=0)
+     ^
+../game.c:171:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:171:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:171:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:171:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:172:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:172:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:173:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:173:13: note: expected 'char *' but argument is of type 'char'
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%s ",arrayC[i]);
+             ^
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+../game.c:119:29: warning: variable 'arrayA' set but not used [-Wunused-but-set-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                             ^
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[10];
+        ^
+../game.c:183:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [subdir.mk:20: game.o] Error 1
+21:48:01 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:168:20: error: assignment to expression with array type
+     c=strcmp(arrayA=arrayB);
+                    ^
+../game.c:169:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if(c=0)
+     ^
+../game.c:171:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:171:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:171:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:171:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:172:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:172:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:173:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:173:13: note: expected 'char *' but argument is of type 'char'
+../game.c:119:29: warning: variable 'arrayA' set but not used [-Wunused-but-set-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                             ^
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[10];
+        ^
+../game.c:183:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [subdir.mk:20: game.o] Error 1
+21:48:46 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:169:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if(c=0)
+     ^
+../game.c:171:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:171:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:171:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:171:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:172:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:172:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:173:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:173:13: note: expected 'char *' but argument is of type 'char'
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[10];
+        ^
+../game.c:183:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../game.c
+ 
+Building target: game.exe
+Invoking: Cygwin C Linker
+gcc  -o "game.exe"  ./game.o   
+Finished building target: game.exe
+ 
+21:49:06 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:169:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if(c=0)
+     ^
+../game.c:171:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:171:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:171:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:171:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:172:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:172:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:173:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:173:13: note: expected 'char *' but argument is of type 'char'
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%s ",arrayC[i]);
+             ^
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[10];
+        ^
+../game.c:183:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../game.c
+ 
+Building target: game.exe
+Invoking: Cygwin C Linker
+gcc  -o "game.exe"  ./game.o   
+Finished building target: game.exe
+ 
+21:49:52 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:169:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if(c=0)
+     ^
+../game.c:171:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:171:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:171:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:171:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:172:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:172:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:173:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:173:13: note: expected 'char *' but argument is of type 'char'
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%s ",arrayC[i]);
+             ^
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[10];
+        ^
+../game.c:183:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../game.c
+ 
+Building target: game.exe
+Invoking: Cygwin C Linker
+gcc  -o "game.exe"  ./game.o   
+Finished building target: game.exe
+ 
+21:50:03 **** Incremental Build of configuration Debug for project game ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:35 **** Incremental Build of configuration Debug for project game ****
+make all 
+Building file: ../game.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"game.d" -MT"game.o" -o "game.o" "../game.c"
+../game.c: In function 'players':
+../game.c:75:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+    strcpy(tmp,weatherArr[b]);
+    ^
+../game.c:75:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+../game.c:75:4: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:75:11: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(tmp,weatherArr[b]);
+           ^
+../game.c:75:11: note: expected 'char *' but argument is of type 'int *'
+../game.c:77:25: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+    strcpy(weatherArr[i],tmp);
+                         ^
+../game.c:77:25: note: expected 'const char *' but argument is of type 'int *'
+../game.c:94:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+       compare=strcmp(weatherArr[b], weatherArr[b+1]);
+               ^
+../game.c:97:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy(tmp,weatherArr[b]);
+        ^
+../game.c:97:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:97:15: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(tmp,weatherArr[b]);
+               ^
+../game.c:97:15: note: expected 'char *' but argument is of type 'int *'
+../game.c:99:31: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+        strcpy(weatherArr[b+1],tmp);
+                               ^
+../game.c:99:31: note: expected 'const char *' but argument is of type 'int *'
+../game.c: In function 'slots':
+../game.c:155:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     arrayC[i]=tempStr;
+              ^
+../game.c:169:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if(c=0)
+     ^
+../game.c:171:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+      strcpy(tmp,arrayC[i-1]);
+      ^
+../game.c:171:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../game.c:171:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(tmp,arrayC[i-1]);
+                 ^
+../game.c:171:17: note: expected 'const char *' but argument is of type 'char'
+../game.c:172:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+             ^
+../game.c:172:13: note: expected 'char *' but argument is of type 'char'
+../game.c:172:25: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[i-1],arrayC[j]);
+                         ^
+../game.c:172:25: note: expected 'const char *' but argument is of type 'char'
+../game.c:173:13: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+      strcpy(arrayC[j],tmp);
+             ^
+../game.c:173:13: note: expected 'char *' but argument is of type 'char'
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%s ",arrayC[i]);
+             ^
+../game.c:180:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+../game.c:119:18: warning: unused variable 'b' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+                  ^
+../game.c:119:10: warning: unused variable 'compare' [-Wunused-variable]
+    int i,compare,b,twn,rain,arrayA[10],arrayB[10],j,c;
+          ^
+../game.c:117:8: warning: unused variable 'temp' [-Wunused-variable]
+   char temp = 0,arrayC[10];
+        ^
+../game.c:183:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../game.c
+ 
+Building target: game.exe
+Invoking: Cygwin C Linker
+gcc  -o "game.exe"  ./game.o   
+Finished building target: game.exe
+ 
+21:54:55 **** Incremental Build of configuration Debug for project game ****
+make all 
+make: Nothing to be done for 'all'.
+14:42:33 **** Incremental Build of configuration Debug for project game ****
+make all 
+make: Nothing to be done for 'all'.
+14:44:14 **** Incremental Build of configuration Debug for project game ****
+make all 
+make: Nothing to be done for 'all'.
